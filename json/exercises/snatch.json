@@ -1,0 +1,128 @@
+{
+    "marjam-snatch-1": [
+        {
+            "name": 18,
+            "list": [
+                {
+                    "percent": 65,
+                    "reps": 5
+                },
+                {
+                    "percent": 70,
+                    "reps": 5
+                },
+                {
+                    "percent": 75,
+                    "reps": 4
+                },
+                {
+                    "percent": 80,
+                    "reps": 4
+                },
+                {
+                    "percent": 80,
+                    "reps": 4
+                }
+            ]
+        },
+        {
+            "name": 1,
+            "list": [
+                {
+                    "percent": 70,
+                    "reps": 3
+                },
+                {
+                    "percent": 70,
+                    "reps": 3
+                },
+                {
+                    "percent": 75,
+                    "reps": 3
+                },
+                {
+                    "percent": 75,
+                    "reps": 3
+                },
+                {
+                    "percent": 80,
+                    "reps": 3
+                },
+                {
+                    "percent": 80,
+                    "reps": 3
+                },
+                {
+                    "percent": 85,
+                    "reps": 3
+                },
+                {
+                    "percent": 85,
+                    "reps": 3
+                }
+            ]
+        },
+        {
+            "name": 13,
+            "list": [
+                {
+                    "percent": 70,
+                    "reps": 5
+                },
+                {
+                    "percent": 75,
+                    "reps": 5
+                },
+                {
+                    "percent": 80,
+                    "reps": 5
+                },
+                {
+                    "percent": 85,
+                    "reps": 5
+                },
+                {
+                    "percent": 85,
+                    "reps": 5
+                },
+                {
+                    "percent": 90,
+                    "reps": 5
+                },
+                {
+                    "percent": 90,
+                    "reps": 5
+                }
+            ]
+        },
+        {
+            "name": 20,
+            "list": [
+                {
+                    "percent": 65,
+                    "reps": 10
+                },
+                {
+                    "percent": 70,
+                    "reps": 8
+                },
+                {
+                    "percent": 75,
+                    "reps": 7
+                },
+                {
+                    "percent": 80,
+                    "reps": 6
+                },
+                {
+                    "percent": 85,
+                    "reps": 5
+                },
+                {
+                    "percent": 85,
+                    "reps": 5
+                }
+            ]
+        }
+    ]
+}
