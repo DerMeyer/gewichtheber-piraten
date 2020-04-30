@@ -1,13 +1,13 @@
-function getSetCount(exercise) {
-    return exercise.length;
+function getSetCount(ex) {
+    return ex.length;
 }
 
-function getReps(exercise) {
-    return exercise.reduce((result, value) => result + value.reps, 0);
+function getReps(ex) {
+    return ex.reduce((r, e) => r + e.reps, 0);
 }
 
-function getAverageWeight(exercise) {
-    return Math.round(exercise.reduce((result, value) => result + value.percent, 0) / exercise.length);
+function getAverageWeight(ex) {
+    return Math.round(ex.reduce((r, e) => r + e.percent, 0) / ex.length);
 }
 
 function getKilos(percent, max) {
@@ -18,9 +18,9 @@ function getKilos(percent, max) {
 
 const PR = 115;
 
-const snatches = require('../json/exercises/snatch.json');
-const today = snatches['marjam-snatch-1'];
-const current = today[0];
+const snatch = require('../json/exercises/snatch.json');
+const today = snatch.find(e => e.id === 1);
+const current = today.training[0];
 const exercise = current.list;
 
 console.log('SET COUNT: ', getSetCount(exercise));// TODO remove dev code
