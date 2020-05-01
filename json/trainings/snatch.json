@@ -1,9 +1,9 @@
 [
     {
-        "id": 1,
+        "id": "snatch_1",
         "training": [
             {
-                "exercise": 17,
+                "exercises": [ 17 ],
                 "list": [
                     {
                         "percent": 65,
@@ -28,7 +28,7 @@
                 ]
             },
             {
-                "exercise": 0,
+                "exercises": [ 0 ],
                 "list": [
                     {
                         "percent": 70,
@@ -65,7 +65,7 @@
                 ]
             },
             {
-                "exercise": 12,
+                "exercises": [ 12 ],
                 "list": [
                     {
                         "percent": 70,
@@ -98,7 +98,7 @@
                 ]
             },
             {
-                "exercise": 19,
+                "exercises": [ 19 ],
                 "list": [
                     {
                         "percent": 65,

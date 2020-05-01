@@ -14,18 +14,74 @@ function getKilos(percent, max) {
     return Math.round((max / 2.5) * (percent / 100)) * 2.5;
 }
 
-// test
+function getExercisesHR(exs) {
+    const exNames = require('../json/exercise-names.json');
+    let r = '';
+    exs.forEach((e, i) => {
+        const name = exNames[e];
+        r += `${i === 0 ? '' : ' + '}${name}`;
+    });
+    return r;
+}
 
-const PR = 115;
+function getRepsHR(list) {
+    let r = '';
+    list.forEach((e, i) => {
+        r += `${i === 0 ? '' : ' '}${e.percent}/${e.reps}`;
+    });
+    return r;
+}
 
-const snatch = require('../json/exercises/snatch.json');
-const today = snatch.find(e => e.id === 1);
-const current = today.training[0];
-const exercise = current.list;
+function getPR(exs, prs) {
+    const prMap = require('../json/pr-map.json');
+    let exIndex;
+    exs.forEach(ex => {
+        if (typeof exIndex !== 'undefined' && exIndex !== ex) {
+            console.warn('Different PRs listed for on exercise: ', exs);
+        }
+        exIndex = ex;
+    });
+    let exName = '';
+    Object.keys(prMap).forEach(key => {
+        if (prMap[key].includes(exIndex)) {
+            exName = key;
+        }
+    });
+    return prs[exName];
+}
 
-console.log('SET COUNT: ', getSetCount(exercise));// TODO remove dev code
-console.log('WH: ', getReps(exercise));// TODO remove dev code
-console.log('MHG: ', getAverageWeight(exercise));// TODO remove dev code
-exercise.forEach(rep => {
-    console.log('PERCENT: ', rep.percent, 'KILOS: ', getKilos(rep.percent, PR));// TODO remove dev code
-});
+// tests
+
+const trainings = {
+    mixed: require('../json/trainings/mixed.json'),
+    snatch: require('../json/trainings/snatch.json'),
+    ['clean-and-jerk']: require('../json/trainings/clean-and-jerk.json')
+};
+
+const prs = {
+    snatch: 100,
+    ['clean-and-jerk']: 115,
+    ['front-squat']: 115,
+    ['back-squat']: 130
+};
+
+function logProgram(program) {
+    console.log('\n');
+    console.log('NAME: ', program.name);
+    program.weeks.forEach((week, index) => {
+        console.log('\n');
+        console.log(`WEEK ${index + 1}`);
+        week.forEach(w => {
+            console.log('\n');
+            const training = trainings[w.name].find(entry => entry.id === w.id).training;
+            training.forEach(t => {
+                console.log(getExercisesHR(t.exercises), 'SATZ: ', getSetCount(t.list), 'WH: ', getReps(t.list), 'MHG: ',  getAverageWeight(t.list), 'PR: ', getPR(t.exercises, prs), 'TRAIN: ', getRepsHR(t.list));
+            });
+        });
+    });
+    console.log('\n');
+}
+
+const program = require('../json/programs/five-weeks-marjam.json');
+
+logProgram(program);

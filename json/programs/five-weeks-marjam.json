@@ -5,8 +5,16 @@
     "weeks": [
         [
             {
-                "exercise": "snatch",
-                "id": 1
+                "name": "snatch",
+                "id": "snatch_1"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "c&j_1"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "c&j_2"
             }
         ]
     ]

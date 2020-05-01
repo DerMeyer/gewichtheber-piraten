@@ -1,0 +1,215 @@
+[
+    {
+        "id": "c&j_1",
+        "training": [
+            {
+                "exercises": [ 9, 11 ],
+                "list": [
+                    {
+                        "percent": 50,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 55,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 60,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 65,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 65,
+                        "reps": 3
+                    }
+                ]
+            },
+            {
+                "exercises": [ 4 ],
+                "list": [
+                    {
+                        "percent": 60,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 65,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 3
+                    }
+                ]
+            },
+            {
+                "exercises": [ 18 ],
+                "list": [
+                    {
+                        "percent": 60,
+                        "reps": 10
+                    },
+                    {
+                        "percent": 65,
+                        "reps": 9
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 8
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 7
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 6
+                    },
+                    {
+                        "percent": 85,
+                        "reps": 5
+                    }
+                ]
+            },
+            {
+                "exercises": [ 24 ],
+                "list": [
+                    {
+                        "percent": 40,
+                        "reps": 8
+                    },
+                    {
+                        "percent": 40,
+                        "reps": 8
+                    },
+                    {
+                        "percent": 45,
+                        "reps": 7
+                    },
+                    {
+                        "percent": 50,
+                        "reps": 6
+                    },
+                    {
+                        "percent": 50,
+                        "reps": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c&j_2",
+        "training": [
+            {
+                "exercises": [ 2 ],
+                "list": [
+                    {
+                        "percent": 70,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 85,
+                        "reps": 3
+                    },
+                    {
+                        "percent": 85,
+                        "reps": 3
+                    }
+                ]
+            },
+            {
+                "exercises": [ 13 ],
+                "list": [
+                    {
+                        "percent": 65,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 80,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 85,
+                        "reps": 5
+                    },
+                    {
+                        "percent": 85,
+                        "reps": 5
+                    }
+                ]
+            },
+            {
+                "exercises": [ 19 ],
+                "list": [
+                    {
+                        "percent": 60,
+                        "reps": 10
+                    },
+                    {
+                        "percent": 70,
+                        "reps": 10
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 10
+                    },
+                    {
+                        "percent": 75,
+                        "reps": 10
+                    }
+                ]
+            }
+        ]
+    }
+]
