@@ -2,11 +2,25 @@ const fs = require('fs');
 const path = require('path');
 const shortid = require('shortid');
 
-// Input example: snatch,18_65/3_70/3,1_80/2_85/2/2
+const trainings = {
+    mixed: require('../json/trainings/mixed.json'),
+    snatch: require('../json/trainings/snatch.json'),
+    ['clean-and-jerk']: require('../json/trainings/clean-and-jerk.json')
+};
 
 const [ trainingName, ...exercises ] = process.argv[2].split(',');
 
-// test input
+const testArr = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '/', '_' ];
+
+if (
+    !trainings[trainingName]
+    || [...exercises].some(e => !testArr.includes(e))
+) {
+    console.warn('Wrong user input. Example: snatch,18_65/3_70/3,1_80/2_85/2/2');
+    process.exit();
+}
+
+const prevItems = trainings[trainingName];
 
 const item = {
     id: `${trainingName}_${shortid.generate()}`,
@@ -35,4 +49,9 @@ exercises.forEach(training => {
     });
 });
 
-console.log(JSON.stringify(item, null, 4));// TODO remove dev code
+prevItems.push(item);
+
+fs.writeFileSync(
+    path.resolve('json', 'trainings', `${trainingName}.json`),
+    JSON.stringify(prevItems, null, 4)
+);
