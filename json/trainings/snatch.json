@@ -413,5 +413,432 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "snatch_wE1yQmGy_",
+        "training": [
+            {
+                "exercises": [
+                    17
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    0
+                ],
+                "list": [
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "88",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    12
+                ],
+                "list": [
+                    {
+                        "percent": "75",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    19
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "7"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "6"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "snatch_RcTJg6oxk",
+        "training": [
+            {
+                "exercises": [
+                    17
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    0
+                ],
+                "list": [
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "88",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "91",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "93",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "93",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    12
+                ],
+                "list": [
+                    {
+                        "percent": "80",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "103",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "103",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    19
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "95",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "100",
+                        "reps": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "snatch_eHap56UWg",
+        "training": [
+            {
+                "exercises": [
+                    17
+                ],
+                "list": [
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    0
+                ],
+                "list": [
+                    {
+                        "percent": "65",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    12
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    19
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    }
+                ]
+            }
+        ]
     }
 ]

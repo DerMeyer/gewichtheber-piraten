@@ -1,5 +1,5 @@
 {
-    "name": "Fünf Wochen von Marjam",
+    "name": "Sechs Wochen von Marjam",
     "created_at": "2020-04-30T07:18:23.830Z",
     "notes": {},
     "weeks": [
@@ -43,6 +43,48 @@
             {
                 "name": "clean-and-jerk",
                 "id": "clean-and-jerk_1fP-pNYpn"
+            }
+        ],
+        [
+            {
+                "name": "snatch",
+                "id": "snatch_wE1yQmGy_"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk_caUvzAsDO"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk_EU1Fnj2nO"
+            }
+        ],
+        [
+            {
+                "name": "snatch",
+                "id": "snatch_RcTJg6oxk"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk_DjZoM0lk-"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk_L3grkXvvR"
+            }
+        ],
+        [
+            {
+                "name": "snatch",
+                "id": "snatch_eHap56UWg"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk__kL8z6Tj4"
+            },
+            {
+                "name": "clean-and-jerk",
+                "id": "clean-and-jerk_d88SklX5v"
             }
         ]
     ]
