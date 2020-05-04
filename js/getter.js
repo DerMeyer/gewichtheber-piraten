@@ -37,20 +37,20 @@ function getRepsHR(list) {
 
 function getPR(exs, prs) {
     const prMap = require('../json/pr-map.json');
-    let exIndex;
-    exs.forEach(ex => {
-        if (typeof exIndex !== 'undefined' && exIndex !== ex) {
-            console.warn('Different PRs listed for on exercise: ', exs);
-        }
-        exIndex = ex;
+    const prNames = exs.map(ex => {
+        let prName = 'unknown';
+        Object.keys(prMap).forEach(key => {
+            if (prMap[key].includes(ex)) {
+                prName = key;
+            }
+        });
+        return prName;
     });
-    let exName = '';
-    Object.keys(prMap).forEach(key => {
-        if (prMap[key].includes(exIndex)) {
-            exName = key;
-        }
-    });
-    return prs[exName];
+
+    if (!prNames.every((e, i, a) => e === a[0])) {
+        console.warn('Different PRs listed for on exercise: ', exs);
+    }
+    return prs[prNames[0]];
 }
 
 function getTrainings() {

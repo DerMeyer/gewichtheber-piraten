@@ -3,7 +3,10 @@
         "id": "c&j_1",
         "training": [
             {
-                "exercises": [ 9, 11 ],
+                "exercises": [
+                    9,
+                    11
+                ],
                 "list": [
                     {
                         "percent": 50,
@@ -28,7 +31,9 @@
                 ]
             },
             {
-                "exercises": [ 4 ],
+                "exercises": [
+                    4
+                ],
                 "list": [
                     {
                         "percent": 60,
@@ -65,7 +70,9 @@
                 ]
             },
             {
-                "exercises": [ 18 ],
+                "exercises": [
+                    18
+                ],
                 "list": [
                     {
                         "percent": 60,
@@ -94,7 +101,9 @@
                 ]
             },
             {
-                "exercises": [ 24 ],
+                "exercises": [
+                    24
+                ],
                 "list": [
                     {
                         "percent": 40,
@@ -124,7 +133,9 @@
         "id": "c&j_2",
         "training": [
             {
-                "exercises": [ 2 ],
+                "exercises": [
+                    2
+                ],
                 "list": [
                     {
                         "percent": 70,
@@ -157,7 +168,9 @@
                 ]
             },
             {
-                "exercises": [ 13 ],
+                "exercises": [
+                    13
+                ],
                 "list": [
                     {
                         "percent": 65,
@@ -190,7 +203,9 @@
                 ]
             },
             {
-                "exercises": [ 19 ],
+                "exercises": [
+                    19
+                ],
                 "list": [
                     {
                         "percent": 60,
@@ -207,6 +222,454 @@
                     {
                         "percent": 75,
                         "reps": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "clean-and-jerk_gZtVX1Ymj",
+        "training": [
+            {
+                "exercises": [
+                    9,
+                    11
+                ],
+                "list": [
+                    {
+                        "percent": "50",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "55",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "60",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    4
+                ],
+                "list": [
+                    {
+                        "percent": "60",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    18
+                ],
+                "list": [
+                    {
+                        "percent": "60",
+                        "reps": "8"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "8"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "7"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "6"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    24
+                ],
+                "list": [
+                    {
+                        "percent": "40",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "40",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "45",
+                        "reps": "8"
+                    },
+                    {
+                        "percent": "50",
+                        "reps": "7"
+                    },
+                    {
+                        "percent": "50",
+                        "reps": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "clean-and-jerk_niteqsI6Q",
+        "training": [
+            {
+                "exercises": [
+                    2
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    13
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "90",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    19
+                ],
+                "list": [
+                    {
+                        "percent": "60",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "10"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "clean-and-jerk_kfukCNURx",
+        "training": [
+            {
+                "exercises": [
+                    25
+                ],
+                "list": [
+                    {
+                        "percent": "55",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "60",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "60",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    4
+                ],
+                "list": [
+                    {
+                        "percent": "60",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    24
+                ],
+                "list": [
+                    {
+                        "percent": "40",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "40",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "45",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "50",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "50",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "clean-and-jerk_1fP-pNYpn",
+        "training": [
+            {
+                "exercises": [
+                    2
+                ],
+                "list": [
+                    {
+                        "percent": "65",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "65",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "2"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    13
+                ],
+                "list": [
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    }
+                ]
+            },
+            {
+                "exercises": [
+                    19
+                ],
+                "list": [
+                    {
+                        "percent": "65",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "70",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "75",
+                        "reps": "5"
+                    },
+                    {
+                        "percent": "80",
+                        "reps": "4"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
+                    },
+                    {
+                        "percent": "85",
+                        "reps": "3"
                     }
                 ]
             }

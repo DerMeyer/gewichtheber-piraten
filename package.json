@@ -1,16 +1,16 @@
 {
-  "name": "gewichtheber-piraten",
-  "version": "1.0.0",
-  "description": "Structure olympic weightlifting training.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "add-training": "node js/addTraining.js",
-    "log-program": "node tests/logProgram.js"
-  },
-  "author": "Glen Coden",
-  "license": "ISC",
-  "dependencies": {
-    "shortid": "^2.2.15"
-  }
+    "name": "gewichtheber-piraten",
+    "version": "1.0.0",
+    "description": "Structure olympic weightlifting training.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "add-training": "node js/addTraining.js",
+        "log-program": "node tests/logProgram.js"
+    },
+    "author": "Glen Coden",
+    "license": "ISC",
+    "dependencies": {
+        "shortid": "^2.2.15"
+    }
 }
