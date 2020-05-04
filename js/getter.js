@@ -1,17 +1,20 @@
+const fs = require('fs');
+const path = require('path');
+
 function getSetCount(ex) {
     return ex.length;
 }
 
 function getReps(ex) {
-    return ex.reduce((r, e) => r + e.reps, 0);
+    return ex.reduce((r, e) => r + parseInt(e.reps, 10), 0);
 }
 
 function getAverageWeight(ex) {
-    return Math.round(ex.reduce((r, e) => r + e.percent, 0) / ex.length);
+    return Math.round(ex.reduce((r, e) => r + parseInt(e.percent, 10), 0) / ex.length);
 }
 
 function getKilos(percent, max) {
-    return Math.round((max / 2.5) * (percent / 100)) * 2.5;
+    return Math.round((parseInt(max, 10) / 2.5) * (parseInt(percent, 10) / 100)) * 2.5;
 }
 
 function getExercisesHR(exs) {
@@ -50,38 +53,20 @@ function getPR(exs, prs) {
     return prs[exName];
 }
 
-// tests
-
-const trainings = {
-    mixed: require('../json/trainings/mixed.json'),
-    snatch: require('../json/trainings/snatch.json'),
-    ['clean-and-jerk']: require('../json/trainings/clean-and-jerk.json')
-};
-
-const prs = {
-    snatch: 100,
-    ['clean-and-jerk']: 115,
-    ['front-squat']: 115,
-    ['back-squat']: 130
-};
-
-function logProgram(program) {
-    console.log('\n');
-    console.log('NAME: ', program.name);
-    program.weeks.forEach((week, index) => {
-        console.log('\n');
-        console.log(`WEEK ${index + 1}`);
-        week.forEach(w => {
-            console.log('\n');
-            const training = trainings[w.name].find(entry => entry.id === w.id).training;
-            training.forEach(t => {
-                console.log(getExercisesHR(t.exercises), 'SATZ: ', getSetCount(t.list), 'WH: ', getReps(t.list), 'MHG: ',  getAverageWeight(t.list), 'PR: ', getPR(t.exercises, prs), 'TRAIN: ', getRepsHR(t.list));
-            });
-        });
-    });
-    console.log('\n');
+function getTrainings() {
+    const tDir = path.resolve('json', 'trainings');
+    const t = fs.readdirSync(tDir);
+    return t.reduce((r, e) => ({
+        ...r,
+        [e.replace('.json', '')]: JSON.parse(fs.readFileSync(path.join(tDir, e), 'utf-8'))
+    }), {});
 }
 
-const program = require('../json/programs/five-weeks-marjam.json');
-
-logProgram(program);
+exports.getSetCount = getSetCount;
+exports.getReps = getReps;
+exports.getAverageWeight = getAverageWeight;
+exports.getKilos = getKilos;
+exports.getExercisesHR = getExercisesHR;
+exports.getRepsHR = getRepsHR;
+exports.getPR = getPR;
+exports.getTrainings = getTrainings;

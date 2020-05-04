@@ -14,7 +14,7 @@ const testArr = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '/', '_' ];
 
 if (
     !trainings[trainingName]
-    || [...exercises].some(e => !testArr.includes(e))
+    || exercises.some(ex => [ ...ex ].some(e => !testArr.includes(e)))
 ) {
     console.warn('Wrong user input. Example: snatch,18_65/3_70/3,1_80/2_85/2/2');
     process.exit();
